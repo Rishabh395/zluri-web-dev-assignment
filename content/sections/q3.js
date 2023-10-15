@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import { Container, Wrapper } from "./style";
+import Dropdown from './Dropdown'
 
 const Q3 = () => {
     return (
@@ -16,6 +17,13 @@ const Q3 = () => {
                     <AnswerDiv>
                         <a href="https://www.figma.com/file/kPxYk2EWTMsBmx4lAc92ni/Web-Dev-Assignment?type=design&node-id=16-26&mode=design&t=LMCvfVQBL3S5dApY-0" target="_blank" ><FigmaButton>Figma</FigmaButton></a>
                         <a href="https://www.figma.com/proto/kPxYk2EWTMsBmx4lAc92ni/Web-Dev-Assignment?type=design&node-id=36-670&t=56Qr3ehXorgFodbH-1&scaling=min-zoom&page-id=36%3A647&starting-point-node-id=36%3A670" target="_blank" ><PrototypeButton>Prototype</PrototypeButton></a>
+
+                        <Dropdown 
+                        style={{marginBottom:"550px"}}
+                         onHover={()=>{}}
+                         optionsList = {['Mountain', 'Forest', 'Ocean', 'Desert']}
+                         level = '1'
+                         />
                     </AnswerDiv>
                 </QuestionsGrid>
             </StyledContainer>

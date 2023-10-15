@@ -46,7 +46,7 @@ export default class Navigation extends Component {
                 <StyledContainer>
                     <Brand>
                         <Link to="/" onClick={this.closeMobileMenu}>
-                            <h2>ZLURI</h2>
+                            <h2>RISHABH</h2>
                         </Link>
                     </Brand>
                     <Mobile>
@@ -66,13 +66,13 @@ export default class Navigation extends Component {
                         <NavListWrapper>
                             <ul>
                                 <NavItem>
-                                    <a href="">Email</a>
+                                    <a href="mailto:rishabhpratap9719@gmail.com">Email</a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="">Contact me</a>
+                                    <a href="tel:+919027780785">Contact me</a>
                                 </NavItem>
                                 <ActionsContainer>
-                                    <a href="https://get.zluri.com/request-demo">
+                                    <a href="https://drive.google.com/file/d/1JNyIECrEmrB6-XYnbji0819wPqnLoFT8/view?usp=sharing">
                                         <button>Resume</button>
                                     </a>
                                 </ActionsContainer>
@@ -86,13 +86,13 @@ export default class Navigation extends Component {
                             <NavListWrapperMobile mobile={true}>
                                 <ul>
                                     <NavItemMobile>
-                                        <a href="">Email</a>
+                                        <a href="mailto:rishabhpratap9719@gmail.com">Email</a>
                                     </NavItemMobile>
                                     <NavItemMobile>
-                                        <a href="">Contact me</a>
+                                        <a href="tel:+919027780785">Contact me</a>
                                     </NavItemMobile>
                                     <ActionsContainer>
-                                        <a href="https://get.zluri.com/request-demo">
+                                        <a href="https://drive.google.com/file/d/1JNyIECrEmrB6-XYnbji0819wPqnLoFT8/view?usp=sharing">
                                             <button>Resume</button>
                                         </a>
                                     </ActionsContainer>

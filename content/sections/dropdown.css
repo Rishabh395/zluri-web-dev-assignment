@@ -1,0 +1,135 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.dropdown{
+    min-width: 15em;
+    position: relative;
+    margin-left: 1em;  
+    margin-top: 0.3em;
+}
+
+.selected{
+    font-family: 'Gabarito', cursive;
+}
+
+.selected-open{
+    font-family: 'Gabarito', cursive;
+    color: grey;
+}
+
+.select{
+    height: 3em;
+    background: #fff;
+    color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px grey solid;
+    border-radius: 0.5rem;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.select-open{
+    height: 3em;
+    border: 1px grey solid;
+    background: #fff;
+    color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px rgb(231, 211, 211) solid;
+    border-radius: 0.5rem;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.select:hover{
+    border-color: #5287E8;
+}
+
+.pointer{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid black;
+    /* transition: 0.3s; */
+}
+
+.pointer-open{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid grey;
+}
+
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: white;
+    border: 1px grey solid;
+    border-radius: 0.5em;
+    color: black;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu li{
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pinter;
+    font-family: 'Gabarito', cursive;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    background: lightpink;
+}
+
+.menu-open{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: white;
+    border: 1px grey solid;
+    border-radius: 0.5em;
+    color: black;
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    transition: 0.2s;
+    z-index: 1;
+    display: block;
+    opacity: 1;
+    font-family: 'Gabarito', cursive;
+    cursor: pointer;
+}
+
+.item{
+    margin-top: 7px;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 0.3em;
+}
+
+.item:hover
+{
+    background-color: #E1E8F8;
+;
+    font-weight:600;
+}
